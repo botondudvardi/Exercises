@@ -9,10 +9,6 @@ public class LongSubstring {
 
        System.out.println(lengthOfLongestSubstring(str));
 
-       int[] index = new int[128];
-
-        index[str.charAt(3)] = 2 + 1;
-       System.out.println(index[str.charAt(0)]);
 
     }
 
